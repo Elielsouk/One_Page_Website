@@ -1,0 +1,74 @@
+*{
+  padding: 0 3px;
+  margin: 0 1px;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgb(192, 218, 205);
+}
+
+main {
+  border: 3px solid green;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(86, 18, 150);
+}
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.menu {
+  display: -webkit-flex;
+  flex: 1 1 0%;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 0 -16px;
+}
+
+.menu a {
+  color: rgb(17, 17, 17);
+  margin: 0 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  border-radius: 99px;
+}
+
+fieldset {
+    width: 40%;
+    min-width: 320px;
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px rgb(21, 19, 19);
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+legend{
+  font-size: 1.25em;
+  padding: 0 .25em;
+  color: rgb(200, 53, 53);
+}
+
+input {
+  padding: .5em;
+  border: solid 1px #999;
+}
+
+input[type="email"], input[type="text"] {
+  width: 15em;
+}
+
+textarea {
+  min-height: 8em;
+  min-width: 100%;
+  padding: .5em;
+  border: solid 1px rgb(6, 85, 163);
+}
